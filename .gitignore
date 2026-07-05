@@ -10,6 +10,8 @@ uv.lock
 .vscode
 .idea
 .zed/
+.trae/
+.trae_agents/
 
 # Logs and temporary files
 botpy.log
@@ -65,3 +67,5 @@ GenieData/
 .worktrees/
 
 dashboard/bun.lock
+embedding.json
+kb_export/

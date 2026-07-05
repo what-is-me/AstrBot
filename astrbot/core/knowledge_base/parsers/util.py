@@ -14,4 +14,8 @@ async def select_parser(ext: str) -> BaseParser:
         from .pdf_parser import PDFParser
 
         return PDFParser()
+    if ext == ".json":
+        from .json_parser import JsonParser
+
+        return JsonParser()
     raise ValueError(f"暂时不支持的文件格式: {ext}")
